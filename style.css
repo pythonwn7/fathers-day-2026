@@ -1,208 +1,355 @@
-body {
-    margin: 0;
-    height: 100vh;
-    font-family: "Cinzel", serif;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+
+* {
+
+    box-sizing: border-box;
+
 }
 
 
+
+body {
+
+    margin: 0;
+
+    height: 100vh;
+
+    font-family: "Cinzel", serif;
+
+}
+
+
+
+/* FIRST PAGE */
+
 .warning-page {
+
     background-color: black;
+
     color: white;
 
     display: flex;
+
     justify-content: center;
+
     align-items: center;
 
     text-align: center;
+
 }
+
 
 
 .warning-container {
+
     display: flex;
+
     flex-direction: column;
+
     align-items: center;
+
 }
+
 
 
 .warning-container h2 {
+
     font-size: 32px;
+
     letter-spacing: 5px;
+
     margin-bottom: 50px;
+
 }
+
 
 
 .ominous-button {
 
+
     width: 180px;
+
     height: 180px;
+
 
     border-radius: 50%;
 
+
     background-color: #8b0000;
+
 
     color: white;
 
+
     border: 3px solid #b30000;
+
 
     font-family: "Cinzel", serif;
 
+
     font-size: 18px;
+
+
     font-weight: bold;
+
 
     cursor: pointer;
 
-    box-shadow: 
-        0 0 20px red;
+
+    box-shadow: 0 0 20px red;
+
 
     transition: transform 0.2s;
+
+
 }
+
 
 
 .ominous-button:active {
 
+
     transform: scale(0.9);
 
+
 }
+
+
+
+
+
+
+/* SECOND PAGE */
+
 
 .reveal-page {
 
+
     background-color: black;
+
 
     color: white;
 
+
     min-height: 100vh;
+
 
     display: flex;
 
+
     justify-content: center;
+
 
     align-items: center;
 
+
     text-align: center;
 
+
 }
+
 
 
 .reveal-container {
 
+
     width: 90%;
 
+
 }
+
 
 
 .reveal-container h1 {
 
+
     font-size: 32px;
+
 
     margin-bottom: 30px;
 
+
 }
+
 
 
 .dad-photo {
 
+
     width: 90%;
+
 
     max-width: 400px;
 
+
     border-radius: 15px;
+
 
     margin-top: 20px;
 
+
 }
+
+
+
+
+
+/* SECOND BUTTON */
 
 
 .hidden-button {
 
-    display: none;
+
+    display: none !important;
+
 
 }
+
 
 
 .show-button {
 
-    display: inline-block;
+
+    display: inline-block !important;
+
 
     margin-top: 30px;
 
+
     background-color: #8b0000;
+
 
     color: white;
 
+
     border: none;
+
 
     border-radius: 25px;
 
+
     padding: 15px 25px;
+
 
     font-family: "Cinzel", serif;
 
+
 }
+
+
+
+
+
+/* CONFETTI */
+
 
 .confetti-piece {
 
+
     position: fixed;
+
 
     top: -10px;
 
+
     width: 10px;
+
 
     height: 20px;
 
+
     opacity: 0.9;
+
 
     animation: fall 3s linear forwards;
 
+
 }
+
 
 
 @keyframes fall {
 
+
     from {
+
 
         transform: translateY(0) rotate(0deg);
 
+
     }
+
 
     to {
 
+
         transform: translateY(110vh) rotate(720deg);
+
 
     }
 
+
 }
+
+
+
+
+
+/* MESSAGE */
+
 
 .message {
 
+
     margin-top: 30px;
+
 
     font-size: 18px;
 
+
     line-height: 1.6;
 
+
 }
+
 
 
 .hidden-message {
 
-    display: none;
+
+    display: none !important;
+
 
 }
+
 
 
 .show-message {
 
-    display: block;
+
+    display: block !important;
+
 
 }
 
 
+
+
+
+/* HUSKY */
+
+
 .husky {
+
 
     width: 120px;
 
+
     margin-top: 20px;
 
+
     cursor: pointer;
+
 
 }

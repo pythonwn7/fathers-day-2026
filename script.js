@@ -1,31 +1,19 @@
 function goToSurprise() {
+
     window.location.href = "surprise.html";
+
 }
-window.onload = function() {
-
-    const button = document.getElementById("second-button");
 
 
-    if (button) {
-
-        setTimeout(function() {
-
-            button.classList.remove("hidden-button");
-
-            button.classList.add("show-button");
-
-        }, 4000);
-
-    }
-
-};
 
 function createConfetti() {
 
     const container = document.getElementById("confetti-container");
 
     if (!container) {
+
         return;
+
     }
 
 
@@ -60,15 +48,11 @@ function createConfetti() {
 }
 
 
-window.addEventListener("load", function() {
-
-    createConfetti();
-
-});
 
 function showMessage() {
 
     const message = document.getElementById("message");
+
 
     if (message) {
 
@@ -79,3 +63,34 @@ function showMessage() {
     }
 
 }
+
+
+
+window.onload = function() {
+
+
+    createConfetti();
+
+
+
+    const button = document.getElementById("second-button");
+
+
+    if (button) {
+
+
+        setTimeout(function() {
+
+
+            button.classList.remove("hidden-button");
+
+            button.classList.add("show-button");
+
+
+        }, 4000);
+
+
+    }
+
+
+};
