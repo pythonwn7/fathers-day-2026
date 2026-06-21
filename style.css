@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Dancing+Script:wght@500;600;700&display=swap');
 
 * {
 
@@ -301,15 +300,34 @@ body {
 
 .message {
 
-
     margin-top: 30px;
 
+    background-color: #001f3f;
 
-    font-size: 18px;
+    border-radius: 20px;
 
+    padding: 25px;
+
+    font-family: "Dancing Script", cursive;
+
+    font-size: 24px;
 
     line-height: 1.6;
 
+    color: white;
+
+    box-shadow: 0 0 20px rgba(0, 31, 63, 0.8);
+
+}
+
+
+.message h2 {
+
+    font-size: 34px;
+
+    margin-top: 0;
+
+    margin-bottom: 20px;
 
 }
 
