@@ -65,3 +65,17 @@ window.addEventListener("load", function() {
     createConfetti();
 
 });
+
+function showMessage() {
+
+    const message = document.getElementById("message");
+
+    if (message) {
+
+        message.classList.remove("hidden-message");
+
+        message.classList.add("show-message");
+
+    }
+
+}

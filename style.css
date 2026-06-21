@@ -171,3 +171,38 @@ body {
     }
 
 }
+
+.message {
+
+    margin-top: 30px;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+}
+
+
+.hidden-message {
+
+    display: none;
+
+}
+
+
+.show-message {
+
+    display: block;
+
+}
+
+
+.husky {
+
+    width: 120px;
+
+    margin-top: 20px;
+
+    cursor: pointer;
+
+}
