@@ -94,3 +94,21 @@ window.onload = function() {
 
 
 };
+
+const husky = document.getElementById("husky");
+
+
+if (husky) {
+
+    const bark = new Audio("sounds/bark.mp3");
+
+
+    husky.addEventListener("click", function() {
+
+        bark.currentTime = 0;
+
+        bark.play();
+
+    });
+
+}
