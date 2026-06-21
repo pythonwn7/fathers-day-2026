@@ -63,3 +63,78 @@ body {
     transform: scale(0.9);
 
 }
+
+.reveal-page {
+
+    background-color: black;
+
+    color: white;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+.reveal-container {
+
+    width: 90%;
+
+}
+
+
+.reveal-container h1 {
+
+    font-size: 32px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.dad-photo {
+
+    width: 90%;
+
+    max-width: 400px;
+
+    border-radius: 15px;
+
+    margin-top: 20px;
+
+}
+
+
+.hidden-button {
+
+    display: none;
+
+}
+
+
+.show-button {
+
+    display: inline-block;
+
+    margin-top: 30px;
+
+    background-color: #8b0000;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 25px;
+
+    padding: 15px 25px;
+
+    font-family: "Cinzel", serif;
+
+}
